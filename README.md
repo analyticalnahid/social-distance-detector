@@ -1,5 +1,5 @@
 # Social Distance Detector
-An simple social distance detector using YOLO and OpenCV, on the basis of eudcliden distance.
+An simple social distance detector using YOLO and OpenCV, on the basis of Euclidean distance.
 
 <img src="Internship Thumbnail.png">
 
