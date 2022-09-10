@@ -6,25 +6,37 @@ An simple social distance detector using YOLO and OpenCV, on the basis of eudcli
 ## How it works?
 Checkout my youtube video-> 
 
-## Try Demo!
-No need to install try it out -> 
-
-## Requirements
-- numpy==1.22.4
-- opencv_python==4.6.0.66
-- streamlit==1.10.0
-
 ## Installation
 Must have to satisfy all the requirements
 
+1. Clone Repository 
 ```bash
-  streamlit run app.py
+   $ git clone https://github.com/analyticalnahid/social-distance-detector.git
+   $ cd social-distance-detector
 ```
+2. Install All Dependencies
+```bash
+   $ pip install -r requirements.txt
+```
+3. Run the program
+```bash
+      $ python social_distancing_detector.py --input pedestrians.mp4 --output output.avi --display 0
+```
+## Usage 
+YOLO COCO weights
+The weight file exceeds the github limits but can be download from [here](https://pjreddie.com/media/files/yolov3.weights).
+
+Add the weight file to the yolo-coco folder.
+
+## References
+[Inspiration from Adrian Rosebrock's](https://www.pyimagesearch.com/2020/06/01/opencv-social-distancing-detector)
+
 
 ## FAQ
 
 #### What's the main purpose?
 You can work with this project a bit along, you can implement it on any realtime IP CCTV camera and monitor any specific area.
+
 
 
 
